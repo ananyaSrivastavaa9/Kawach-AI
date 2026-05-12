@@ -4,21 +4,20 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Railway](https://img.shields.io/badge/Railway-0B404F?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Stars](https://img.shields.io/github/stars/ananyaSrivastavaa9/Kawach-AI?style=social)](https://github.com/ananyaSrivastavaa9/Kawach-AI)
 
-> **Real-time detection of toxic language in English, Hindi & Hinglish.**  
-> Fights online abuse with toxicity scores, trigger words, explanations & polite rewrites.  
-> 📱 **Mobile-ready** • 📊 **Batch CSV analysis** • 🔄 **Live demo on Railway**
+> **Real-time Hindi/English/Hinglish toxicity detector**  
+> Scores + triggers + rewrites + CSV batch analysis  
+> 📱 **Mobile-ready** • 📊 **Live demo** • 🇮🇳 **India-first**
 
 ---
 
 ## ✨ **Live Demo**
-**[Try Kawach AI Now →](https://kawach-ai-production.up.railway.app/)**
+**[🚀 Try Kawach AI Now](https://kawach-ai-production.up.railway.app/)**
 
-![Demo GIF](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Recording%202026-05-12%20225115.gif)  
+![Demo GIF](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Recording%202026-05-12%20225115.gif)
 
----
-
-## **Screenshots**
+## 📸 **Screenshots**
 | Single Analysis | Batch Dashboard |
 |-----------------|-----------------|
 | ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
@@ -26,154 +25,87 @@
 ---
 
 ## 🎯 **Why Kawach AI?**
-- **90%+ of Indian social media abuse** is in Hinglish/Hindi—existing tools ignore it
+- **90%+ Indian social media abuse** is Hinglish/Hindi 🚨
 - **Rule-based + explainable** (no black-box ML needed)
-- Built in **1 weekend** on Replit → deployed on Railway
-- Perfect for **hackathons, portfolios, NGOs, student projects**
+- Built in **1 weekend**: Replit → Railway
+- Perfect for **hackathons, portfolios, NGOs**
 
 ---
 
 ## 🚀 **Features**
-
-| Feature | Single Text | CSV Batch (100s rows) |
-|---------|-------------|-----------------------|
+| Feature | Single Text | CSV Batch |
+|---------|-------------|-----------|
 | **Multi-language** | ✅ English/Hindi/Hinglish | ✅ |
-| **Toxicity Score** | 0–100 **(real-time)** | ✅ Average + distribution |
-| **Classification** | Safe/Moderate/Toxic | ✅ **Pie chart** |
+| **Toxicity Score** | **0–100 real-time** | ✅ Charts |
 | **Trigger Words** | **Highlighted** | ✅ Per row |
-| **Explanation** | Human-readable | ✅ |
 | **Polite Rewrite** | Auto-generated | ✅ Per row |
-| **Charts** | - | **Plotly interactive** |
 | **Export** | - | **Download CSV** |
 
 ---
 
-## 🧠 **How It Works** *(Simple!)*
-Input: "Tu gadha hai bc"
-↓
-
-Tokenize → ["Tu", "gadha", "hai", "bc"]
-
-Match dictionary → "gadha"(1.5x), "bc"(3x) = 4.5 points
-
-Score = (4.5 ÷ 4 words) × 100 = 87/100
-
-Label: 🚨 Toxic
-
-Triggers: gadha, bc
-
-Rewrite: "Tu [removed] hai"
+## 🧠 **How It Works**
+"Ye rubbish hai" → 65/100 🚨 Toxic
+Triggers: rubbish → Rewrite: "Ye kaisa content hai?"
 
 text
 
-**Scoring thresholds:**
-- 🟢 **Safe**: 0–24
-- 🟡 **Moderate**: 25–54  
-- 🔴 **Toxic**: 55–100
+**Thresholds:** 🟢0-24 Safe | 🟡25-54 Moderate | 🔴55-100 Toxic
 
 ---
 
-## 🚀 **Quick Start**
+## 🔧 **Quick Start**
 
-### **Option 1: Live Demo** *(No setup)*
-**[https://YOUR_RAILWAY_URL.up.railway.app](https://kawach-ai-production.up.railway.app/)**
+### **🌐 Live Demo** *(No setup)*
+**[https://kawach-ai-production.up.railway.app/](https://kawach-ai-production.up.railway.app/)**
 
-### **Option 2: Run Locally**
+### **💻 Run Locally**
 ```bash
-git clone https://github.com/YOURUSERNAME/kawach-ai.git
-cd kawach-ai
+git clone https://github.com/ananyaSrivastavaa9/Kawach-AI
+cd Kawach-AI
 pip install -r requirements.txt
 streamlit run app.py
 ```
-```
+
+### **🔧 Replit** *(5 mins)*
+1. [replit.com](https://replit.com) → Import GitHub
+2. **Run** → Live app!
+
 ---
 
-## 📁 **Project Structure**
-kawach-ai/
-├── app.py # 🎭 Main Streamlit app
-├── toxic_words.py # 🗣️ 500+ word dictionary + scoring
+## 📁 **Files**
+Kawach-AI/
+├── app.py # 🎭 Main app
+├── toxic_words.py # 🗣️ 500+ toxic words
 ├── requirements.txt # 📦 Dependencies
-├── screenshots/ # 🖼️ Demo images
-├── sample_comments.csv # 📄 Test data
-├── README.md # 📖 This file
-└── .streamlit/config.toml # 🎨 Dark theme
+├── Recording*.gif # 🎥 Demo
+└── Screenshots/ # 📸 Proof
 
 text
 
 ---
 
-## 🛠️ **Tech Stack**
-Frontend: Streamlit + Plotly + Custom CSS
-Backend: Python + Pandas + NumPy
-Dictionary: 500+ English/Hindi/Hinglish toxic words
-Deployment: Railway (free tier)
-Editor: VS Code + Replit
-
-text
-
----
-
-## 📈 **Performance**
-| Metric | Value |
-|--------|-------|
-| **Startup time** | **<2 seconds** |
-| **Single analysis** | **50ms** |
-| **1000-row CSV** | **3 seconds** |
-| **Memory** | **50MB** |
-| **Uptime** | **99.9%** (Railway) |
-
----
-
-## 🌍 **Indian Context**
-✅ **Covers slang, gaaliyan, caste/religion triggers**  
-✅ **Hinglish-aware** ("Tu gadha hai bc")  
-✅ **Mobile-first** (80% Indian users)  
-✅ **Lightweight** (no GPU/ML needed)
+## 🇮🇳 **India-First**
+✅ **Slang + gaaliyan** detection  
+✅ **Hinglish-aware**  
+✅ **Mobile-first** (80% users)  
+✅ **No ML/GPU** needed
 
 ---
 
 ## 🤝 **Contribute**
-**Love it? Help improve!**
-
-1. **Add toxic words** → Edit `toxic_words.py`
-2. **New languages** → Tamil, Bengali dictionaries  
-3. **ML upgrade** → BERT fine-tuning
-4. **Features** → Emojis, images, audio
-
-```bash
-git clone https://github.com/YOURUSERNAME/kawach-ai
-# Make changes → PR
-```
-
-**Issues welcome!** 🐛
+1. Add words → `toxic_words.py`
+2. New languages → Tamil/Bengali  
+3. PR welcome! 🚀
 
 ---
 
-## 📄 **License**
-[**MIT License**](LICENSE) – **Free to use anywhere.**
+## 👤 **Author**
+**Ananya Srivastava**  
+💼 [LinkedIn](https://linkedin.com/in/ananyasriv) | 📍 **Lucknow**  
+*Built May 2026 🇮🇳*
 
 ---
 
-## 👏 **Acknowledgments**
-- [Streamlit](https://streamlit.io) – **Made web dev fun**
-- [Railway](https://railway.app) – **Free deploys**
-- **Indian Twitter users** – Real-world test cases 😅
+⭐ **Star if helpful!** 🐛 [Issues](https://github.com/ananyaSrivastavaa9/Kawach-AI/issues)
 
----
-
-⭐ **Star this repo** if it helped!  
-🐛 **Found a bug?** [Open issue](https://github.com/YOURUSERNAME/kawach-ai/issues/new)
-
----
-
-**#FightHate #KawachAI #BuildInPublic**  
-***Made with ❤️ in India, May 2026***
-
----
-
-## **🔥 Quick TODOs:**
-1. **Replace** `YOUR_RAILWAY_URL` & `YOURUSERNAME`
-2. **Upload** 2 screenshots + GIF to `/screenshots/`
-3. **Add** your `sample_comments.csv`
-4. **Replace** contact links with real ones
-5. **Copy-paste this** → **Perfect GitHub repo ready!** 🚀
+**#KawachAI #FightHate #MadeInIndia**
