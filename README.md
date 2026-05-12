@@ -41,12 +41,10 @@
 
 ---
 
-## 🎨 **Dark Theme Screenshots**
+## **Screenshots**
 | Single Analysis | Batch Dashboard |
 |-----------------|-----------------|
-| ![Single](screenshots/single_analysis.png) | ![Batch](screenshots/batch_dashboard.png) |
-
-*Upload these 2 screenshots to `/screenshots/` folder*
+| ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
 
 ---
 
@@ -78,7 +76,7 @@ text
 ## 🚀 **Quick Start**
 
 ### **Option 1: Live Demo** *(No setup)*
-**[https://YOUR_RAILWAY_URL.up.railway.app](https://YOUR_RAILWAY_URL.up.railway.app)**
+**[https://YOUR_RAILWAY_URL.up.railway.app](https://kawach-ai-production.up.railway.app/)**
 
 ### **Option 2: Run Locally**
 ```bash
@@ -87,10 +85,6 @@ cd kawach-ai
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-### **Option 3: Replit** *(5 mins)*
-1. [replit.com](https://replit.com) → **Import from GitHub**
-2. **Run** button auto-installs everything
 
 ---
 
@@ -166,11 +160,6 @@ git clone https://github.com/YOURUSERNAME/kawach-ai
 - **Indian Twitter users** – Real-world test cases 😅
 
 ---
-
-## 📞 **Contact**
-**Ananya Srivastava**  
-💼 [LinkedIn](https://linkedin.com/in/ananyasrivastava) | 🐦 [X/Twitter](https://x.com/ananyasriv)  
-📍 **Lucknow, India** | ✉️ **ananya@example.com**
 
 ⭐ **Star this repo** if it helped!  
 🐛 **Found a bug?** [Open issue](https://github.com/YOURUSERNAME/kawach-ai/issues/new)
