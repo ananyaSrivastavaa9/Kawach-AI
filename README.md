@@ -76,7 +76,7 @@ text
 ## 🚀 **Quick Start**
 
 ### **Option 1: Live Demo** *(No setup)*
-**[https://YOUR_RAILWAY_URL.up.railway.app](https://YOUR_RAILWAY_URL.up.railway.app)**
+**[https://YOUR_RAILWAY_URL.up.railway.app](https://kawach-ai-production.up.railway.app/)**
 
 ### **Option 2: Run Locally**
 ```bash
@@ -85,10 +85,6 @@ cd kawach-ai
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
-### **Option 3: Replit** *(5 mins)*
-1. [replit.com](https://replit.com) → **Import from GitHub**
-2. **Run** button auto-installs everything
 
 ---
 
