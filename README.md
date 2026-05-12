@@ -77,8 +77,6 @@ Kawach-AI/
 ├── 🖼️ Recording 2026-05-12.gif    # Demo animation of the application
 ├── 📖 README.md                  # Project documentation and setup guide
 └── 📂 Screenshots/               # Visual gallery of the User Interface
-    ├── landing_page.png
-    └── detection_result.png
 ```
 
 ---
