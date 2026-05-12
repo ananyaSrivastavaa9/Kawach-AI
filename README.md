@@ -14,7 +14,14 @@
 ## ✨ **Live Demo**
 **[Try Kawach AI Now →](https://kawach-ai-production.up.railway.app/)**
 
-![Demo GIF](https://github.com/ananyaSrivastavaa9/Kawach-AI/blob/main/Recording%202026-05-12%20225115.gif)  
+![Demo GIF](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Recording%202026-05-12%20225115.gif)  
+
+---
+
+## **Screenshots**
+| Single Analysis | Batch Dashboard |
+|-----------------|-----------------|
+| ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
 
 ---
 
@@ -38,13 +45,6 @@
 | **Polite Rewrite** | Auto-generated | ✅ Per row |
 | **Charts** | - | **Plotly interactive** |
 | **Export** | - | **Download CSV** |
-
----
-
-## **Screenshots**
-| Single Analysis | Batch Dashboard |
-|-----------------|-----------------|
-| ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
 
 ---
 
@@ -85,7 +85,7 @@ cd kawach-ai
 pip install -r requirements.txt
 streamlit run app.py
 ```
-
+```
 ---
 
 ## 📁 **Project Structure**
