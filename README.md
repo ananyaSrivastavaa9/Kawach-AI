@@ -44,9 +44,7 @@
 ## 🎨 **Dark Theme Screenshots**
 | Single Analysis | Batch Dashboard |
 |-----------------|-----------------|
-| ![Single](screenshots/single_analysis.png) | ![Batch](screenshots/batch_dashboard.png) |
-
-*Upload these 2 screenshots to `/screenshots/` folder*
+| ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
 
 ---
 
@@ -166,11 +164,6 @@ git clone https://github.com/YOURUSERNAME/kawach-ai
 - **Indian Twitter users** – Real-world test cases 😅
 
 ---
-
-## 📞 **Contact**
-**Ananya Srivastava**  
-💼 [LinkedIn](https://linkedin.com/in/ananyasrivastava) | 🐦 [X/Twitter](https://x.com/ananyasriv)  
-📍 **Lucknow, India** | ✉️ **ananya@example.com**
 
 ⭐ **Star this repo** if it helped!  
 🐛 **Found a bug?** [Open issue](https://github.com/YOURUSERNAME/kawach-ai/issues/new)
