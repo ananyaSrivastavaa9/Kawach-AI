@@ -14,8 +14,7 @@
 ## ✨ **Live Demo**
 **[Try Kawach AI Now →](https://kawach-ai-production.up.railway.app/)**
 
-![Demo GIF](https://github.com/YOURUSERNAME/kawach-ai/assets/XXXXX/XXXXX.gif)  
-*Upload a 10-sec screen recording GIF showing the app in action*
+![Demo GIF](https://github.com/ananyaSrivastavaa9/Kawach-AI/blob/main/Recording%202026-05-12%20225115.gif)  
 
 ---
 
