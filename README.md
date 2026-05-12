@@ -41,7 +41,7 @@
 
 ---
 
-## 🎨 **Dark Theme Screenshots**
+## **Screenshots**
 | Single Analysis | Batch Dashboard |
 |-----------------|-----------------|
 | ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
