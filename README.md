@@ -12,7 +12,7 @@
 ---
 
 ## ✨ **Live Demo**
-**[Try Kawach AI Now →](https://YOUR_RAILWAY_URL.up.railway.app)** *(Replace with your actual Railway link)*
+**[Try Kawach AI Now →](https://kawach-ai-production.up.railway.app/)**
 
 ![Demo GIF](https://github.com/YOURUSERNAME/kawach-ai/assets/XXXXX/XXXXX.gif)  
 *Upload a 10-sec screen recording GIF showing the app in action*
