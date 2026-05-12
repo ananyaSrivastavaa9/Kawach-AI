@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![Railway](https://img.shields.io/badge/Railway-0B404F?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Stars](https://img.shields.io/github/stars/YOURUSERNAME/kawach-ai?style=social)](https://github.com/YOURUSERNAME/kawach-ai)
+[![Stars](https://img.shields.io/github/stars/YOURUSERNAME/kawach-ai?style=social)](https://github.com/ananyaSrivastavaa9/Kawach-AI)
 
 > **Real-time detection of toxic language in English, Hindi & Hinglish.**  
 > Fights online abuse with toxicity scores, trigger words, explanations & polite rewrites.  
