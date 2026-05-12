@@ -68,17 +68,19 @@ streamlit run app.py
 ```
 
 ---
-
-## 📁 Project Structure
-
-
+## Project Folder
+```bash
 Kawach-AI/
-├── app.py # Main Streamlit app
-├── toxic_words.py # 500+ toxic words dictionary
-├── requirements.txt # Dependencies
-├── Recording 2026-05-12 225115.gif # Demo video
-├── README.md # Project documentation
-└── Screenshots/ # UI screenshots
+├── 📄 app.py                     # Main Streamlit application logic
+├── 📄 toxic_words.py             # Dictionary containing 500+ toxic keywords
+├── 📄 requirements.txt           # Python dependencies and libraries
+├── 🖼️ Recording 2026-05-12.gif    # Demo animation of the application
+├── 📖 README.md                  # Project documentation and setup guide
+└── 📂 Screenshots/               # Visual gallery of the User Interface
+    ├── landing_page.png
+    └── detection_result.png
+```
+
 ---
 
 ## 🇮🇳 India-First
