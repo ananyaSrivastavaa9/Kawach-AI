@@ -102,5 +102,4 @@ Ananya Srivastava
 ---
 
 ⭐ Star if helpful  
-🐛 Issues  
 #KawachAI #FightHate #MadeInIndia
