@@ -1,4 +1,4 @@
-# 🛡️ **Kawach AI** – Multilingual Toxicity Detector
+# 🛡️ Kawach AI – Multilingual Toxicity Detector
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
@@ -6,105 +6,81 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Stars](https://img.shields.io/github/stars/ananyaSrivastavaa9/Kawach-AI?style=social)](https://github.com/ananyaSrivastavaa9/Kawach-AI)
 
-> **Real-time Hindi/English/Hinglish toxicity detector**  
+> Real-time Hindi/English/Hinglish toxicity detector  
 > Scores + triggers + rewrites + CSV batch analysis  
-> 📱 **Mobile-ready** • 📊 **Live demo** • 🇮🇳 **India-first**
+> Mobile-ready • Live demo • India-first
 
 ---
 
-## ✨ **Live Demo**
-**[🚀 Try Kawach AI Now](https://kawach-ai-production.up.railway.app/)**
-
-![Demo GIF](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Recording%202026-05-12%20225115.gif)
-
-## 📸 **Screenshots**
-| Single Analysis | Batch Dashboard |
-|-----------------|-----------------|
-| ![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png) |
+## ✨ Live Demo
+https://kawach-ai-production.up.railway.app/
 
 ---
 
-## 🎯 **Why Kawach AI?**
-- **90%+ Indian social media abuse** is Hinglish/Hindi 🚨
-- **Rule-based + explainable** (no black-box ML needed)
-- Perfect for **hackathons, portfolios, NGOs**
+## 📸 Screenshots
+Single Analysis | Batch Dashboard  
+---|---  
+![Single](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225703.png) | ![Batch](https://raw.githubusercontent.com/ananyaSrivastavaa9/Kawach-AI/main/Screenshots/Screenshot%202026-05-12%20225738.png)
 
 ---
 
-## 🚀 **Features**
-| Feature | Single Text | CSV Batch |
-|---------|-------------|-----------|
-| **Multi-language** | ✅ English/Hindi/Hinglish | ✅ |
-| **Toxicity Score** | **0–100 real-time** | ✅ Charts |
-| **Trigger Words** | **Highlighted** | ✅ Per row |
-| **Polite Rewrite** | Auto-generated | ✅ Per row |
-| **Export** | - | **Download CSV** |
+## 🎯 Why Kawach AI
+90%+ Indian social media abuse is Hinglish/Hindi  
+Rule-based + explainable system (no black-box ML)  
+Built for hackathons, portfolios, and real-world moderation use cases  
 
 ---
 
-## 🧠 **How It Works**
-"Ye rubbish hai" → 65/100 🚨 Toxic
-Triggers: rubbish → Rewrite: "Ye kaisa content hai?"
-
-text
-
-**Thresholds:** 🟢0-24 Safe | 🟡25-54 Moderate | 🔴55-100 Toxic
-
----
-
-## 🔧 **Quick Start**
-
-### **🌐 Live Demo** *(No setup)*
-**[https://kawach-ai-production.up.railway.app/](https://kawach-ai-production.up.railway.app/)**
-
-### **💻 Run Locally**
-```bash
-git clone https://github.com/ananyaSrivastavaa9/Kawach-AI
-cd Kawach-AI
-pip install -r requirements.txt
-streamlit run app.py
-```
-
-### **🔧 Replit** *(5 mins)*
-1. [replit.com](https://replit.com) → Import GitHub
-2. **Run** → Live app!
+## 🚀 Features
+- Multi-language detection (English, Hindi, Hinglish)  
+- Toxicity score (0–100)  
+- Classification: Safe / Moderate / Toxic  
+- Trigger word detection  
+- Polite rewrite suggestion  
+- CSV batch analysis  
+- Visual dashboards with charts  
+- Downloadable results  
 
 ---
 
-## 📁 **Files**
-Kawach-AI/
-├── app.py # 🎭 Main app
-├── toxic_words.py # 🗣️ 500+ toxic words
-├── requirements.txt # 📦 Dependencies
-├── Recording*.gif # 🎥 Demo
-└── Screenshots/ # 📸 Proof
+## 🧠 How It Works
+Input text → scans toxic dictionary → assigns score → classifies → shows explanation + rewrite  
+Batch mode → processes CSV → generates charts + downloadable results  
 
-text
+Thresholds: 🟢 0–24 Safe | 🟡 25–54 Moderate | 🔴 55–100 Toxic  
 
 ---
 
-## 🇮🇳 **India-First**
-✅ **Slang + gaaliyan** detection  
-✅ **Hinglish-aware**  
-✅ **Mobile-first** (80% users)  
-✅ **No ML/GPU** needed
+## 📁 Project Structure
+kawach-ai/  
+├── app.py  
+├── toxic_words.py  
+├── requirements.txt  
+├── Recording.gif  
+└── Screenshots/  
 
 ---
 
-## 🤝 **Contribute**
-1. Add words → `toxic_words.py`
-2. New languages → Tamil/Bengali  
-3. PR welcome! 🚀
+## 🇮🇳 India-First
+Built specifically for Indian social media context  
+Supports Hinglish slang and Hindi abuse detection  
+Mobile-first UI design  
+Lightweight (no GPU required)  
 
 ---
 
-## 👤 **Author**
-**Ananya Srivastava**  
-💼 [LinkedIn](https://linkedin.com/in/ananyasriv) | 📍 **Lucknow**  
-*Built May 2026 🇮🇳*
+## 🤝 Contribute
+Add new words in toxic_words.py  
+Improve detection logic  
+Extend to regional languages  
 
 ---
 
-⭐ **Star if helpful!** 🐛 [Issues](https://github.com/ananyaSrivastavaa9/Kawach-AI/issues)
+## 👤 Author
+Ananya Srivastava  
+LinkedIn: https://www.linkedin.com/in/ananyasrivastavaa8/
 
-**#KawachAI #FightHate #MadeInIndia**
+---
+
+⭐ If you like this project, consider starring the repo  
+#KawachAI #FightHate
