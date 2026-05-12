@@ -27,7 +27,6 @@
 ## 🎯 **Why Kawach AI?**
 - **90%+ Indian social media abuse** is Hinglish/Hindi 🚨
 - **Rule-based + explainable** (no black-box ML needed)
-- Built in **1 weekend**: Replit → Railway
 - Perfect for **hackathons, portfolios, NGOs**
 
 ---
